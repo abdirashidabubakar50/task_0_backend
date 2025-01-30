@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 import datetime
-from flask_cors import  CORS
+from Flask_cors import  CORS
 
 app = Flask(__name__)
 
