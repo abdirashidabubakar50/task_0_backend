@@ -34,7 +34,7 @@
 
 ## Endpoint
 
-```GET /info ```
+```GET / ```
 ## Response Format
 Successful response format will return the following
 
@@ -44,5 +44,5 @@ Successful response format will return the following
 For Usage send GET/info request to the deployed endpoint
 
 ```bash
-pass
+https://task-0-backend.vercel.app/
 ```

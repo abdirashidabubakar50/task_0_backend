@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/info', methods=['GET'])
+@app.route('/', methods=['GET'])
 def info():
     email_address = 'abdirashidabubakar7@gmail.com'
     current_date_time = datetime.datetime.utcnow().isoformat() + 'Z'
