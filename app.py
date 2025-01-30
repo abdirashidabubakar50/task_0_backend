@@ -18,3 +18,6 @@ def info():
         'current_date_time': current_date_time,
         'github_url': github_url
     }), 200
+
+def handler(event, context):
+    return app(event, context)
