@@ -18,6 +18,3 @@ def info():
         'current_date_time': current_date_time,
         'github_url': github_url
     }), 200
-
-if __name__ == '__main__':
-    app.run(debug=True)
