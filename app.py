@@ -14,11 +14,9 @@ def info():
     current_date_time = datetime.datetime.utcnow().isoformat() + 'Z'
     github_url = 'https://github.com/abdirashidabubakar50/task_0_backend'
 
-    resopnse = {
+    response = {
         'email': email_address,
         'current_date_time': current_date_time,
         'github_url': github_url
     }
-    return jsonify({
-        response
-    }), 200
+    return jsonify(response), 200
