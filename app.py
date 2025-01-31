@@ -20,3 +20,6 @@ def info():
         'github_url': github_url
     }
     return jsonify(response), 200
+
+if __name__ == "__main__":
+    app.run()
