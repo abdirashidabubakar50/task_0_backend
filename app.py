@@ -16,7 +16,7 @@ def info():
 
     response = {
         'email': email_address,
-        'current_date_time': current_date_time,
+        'current_datetime': current_date_time,
         'github_url': github_url
     }
     return jsonify(response), 200
